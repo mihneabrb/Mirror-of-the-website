@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container1 {
+  text-align: center;
+  padding: none;
+}
+
+.container {
+  position: relative;
+  background-color: #2BC1FF;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+img { 
+  width: 100%;
+  height: 500;
+  opacity: 0.3;
+}
+
+#link {
+color: white;
+text-decoration: none;
+font-size: 16px;
+}
+
+#link1 {
+color: #C5CBCD;
+text-decoration: none;
+font-size: 14px;
+}
+
+#link2 {
+color: black;
+text-decoration: none;
+font-size: 20px;
+}
+
+#link2:hover {
+color: #23A7DE;
+}
+
+
+
+#link1:hover {
+color:white;
+}
+
+#link:hover {
+
+text-decoration: underline}
+
+#p01 {
+  color: #C5CBCD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+td {
+   text-align: left;
+}
+
+th {
+   text-align: left;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #189AC8;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #2D3234;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="navbar">
+  <a href="#" class="active">=</a>
+  <a href="#">   </a>
+  <a href="#">Sports interactive</a>
+  <a href="#" class="right">Lupa</a>
+  <a href="#" class="right">News</a>
+  <a href="#" class="right">Community</a>
+  <a href="#" class="right">Studio</a>
+  <a href="#" class="right">Games</a>
+  <a href="#" class="right">Careers</a>
+  
+  <a href="#" class="right"></a>
+</div>
+
+<div class="container">
+  <img src="img/office.jpg" width="1000" height="400">
+  <div class="center">News</div>
+</div>
+
+  <h2>Studio News</h2>
+  
+  
+  
+
+<div class="polaroid">
+  <img src="img/wii.jpg" style="width:30%">
+  <div class="container1">
+  <p><a href="#" id="link2">THE FOOTBALL MANAGER FAN SURVEY</a></p>
+  <p>*SURVEY NOW CLOSED. Thank you to everyone who entered. Winners will be contacted shortly*</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="img/wii1.jpg" style="width:30%">
+  <div class="container1">
+  <p><a href="#" id="link2">FOOTBALL MANAGER 2019 TO DEBUT NOV 2ND</a></p>
+  <p>New Season, New Kit, New Leagues</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+   
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="img/wii2.jpg" style="width:30%">
+  <div class="container1">
+  <p><a href="#" id="link2">COPA MANAGERIA FINAL ENTRANT TERMS AND CONDITIONS</a></p>
+  <p>Terms and Conditions</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  
+  </div>
+</div>
+  
+   <div class="polaroid">
+  <img src="img/wii3.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">FOOTBALL MANAGER 2018 FEATURE NEWS</a></p>
+  <p>Speculation about the new features set to be included in Football Manager 2018 has been mounting since the game was announced in August. </p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+   
+  </div>
+  </div>
+  
+  <div class="polaroid">
+  <img src="img/wii4.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">FOOTBALL MANAGER 2018 OUT NOVEMBER 10</a></p>
+  <p>Sports Interactive are delighted to announce that Football Manager 2018 will be available to sign from Friday, November 10th 2017 </p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+   
+  </div>
+  </div>
+    
+	<div class="polaroid">
+    <img src="img/wii5.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">FOOTBALL MANAGER 2017 OUT NOW</a></p>
+  <p>We’re delighted to announce that Football Manager 2017 is now available on PC, Mac and Linux.</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  
+  </div>
+</div>
+   <div class="polaroid">
+  <img src="img/wii6.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">FOOTBALL MANAGER 2017 IS COMING</a></p>
+  <p>With your club’s fixtures in the diary, there’s just one date left to confirm… and we’re delighted to reveal that Football Manage</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  
+  </div>
+</div>
+
+   <div class="polaroid">
+  <img src="img/wii8.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">EHM OFFICIAL DATA PACKS</a></p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  
+  </div>
+</div>
+
+  <div class="polaroid">
+  <img src="img/wii9.jpg" style="width:100%">
+  <div class="container1">
+  <p><a href="#" id="link2">EASTSIDE HOCKEY MANAGER RETURNS TO THE RINK</a></p>
+  <p>Eastside Hockey Manager (EHM) has today emerged from Steam's Early Access programme and is available now as a full release on Ste</p>
+  <p><a href="#" id="link2">READ MORE</a></p>
+  
+  </div>
+</div>
+  
+  
+
+
+
+
+<div class="row">
+  <div class="side">
+  </div>
+</div>
+
+<div class="footer">
+ 
+  <div class="column">
+  <table style="width:100%">
+  <tr id="p01">
+    <th>      </th>  
+    <th><a href="#" id="link">Studio</a></th>
+    <th><a href="#" id="link">Support</a></th> 
+    <th><a href="#" id="link">Football Manager</a></th>
+	<th><a href="#" id="link">Eastside Hockey</a></th>
+	<th><a href="#" id="link">Legal</a></th>
+  </tr>
+  <tr id="p01">
+    <td> </td> 
+    <td><a href="#" id="link1">About us</a></td>
+    <td><a href="#" id="link1">Community Forums</a></td>
+    <td><a href="#" id="link1">Official Website</a></td>
+	<td><a href="#" id="link1">Official Website</a></td>
+	<td><a href="#" id="link1">Support</a></td>
+	
+  </tr>
+  <tr id="p01">
+    <td> </td> 
+    <td><a href="#" id="link1">Careers</a></td>
+    <td><a href="#" id="link1">Costumer Support</a></td>
+    <td><a href="#" id="link1">Twitter</a></td>
+	<td><a href="#" id="link1">Twitter</a></td>
+	<td><a href="#" id="link1">Eula</a></td>
+	
+  </tr>
+  <tr id="p01"> 
+    <td> </td> 
+    <td><a href="#" id="link1">Contact us</a></td>
+    <td> </td>
+    <td><a href="#" id="link1">Facebook</a></td>
+	<td><a href="#" id="link1">Facebook</a></td>
+	<td><a href="#" id="link1">Cookie Policy</a></td>
+  </tr>
+  
+  <tr id="p01">
+    <td> </td>
+    <td><a href="#" id="link1">News</a></td>
+	<td> </td>
+	<td> </td>
+	<td> </td>
+	<td><a href="#" id="link1">Terms & Conditions</a></td>
+  </tr>  
+  
+  <tr id="p01">
+    <td> </td> 
+    <td><a href="#" id="link1">Sponsorships &</a></td>
+	<td> </td>
+	<td> </td>
+	<td> </td>
+	<td><a href="#" id="link1">Privacy Policy</a></td>
+  </tr>
+  
+  <tr id="p01">
+  <td> </td>
+  <td><a href="#" id="link1">Partners</a></td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td><a href="#" id="link1">Professionals</a></td>
+  </tr>
+  
+  <tr id="p01">
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td><a href="#" id="link1">Candidate</a></td>
+  </tr>
+  
+  <tr id="p01">
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td><a href="#" id="link1">Application Notice</a></td>
+  </tr>
+</table>
+    <h2>.</h2>
+    <p id="p01" style="font-size:11px"> © Sports Interactive Limited 2017. Published by SEGA Publishing Europe Limited. Developed by Sports Interactive Limited. SEGA and the SEGA logo are either registered trademarks or trademarks of SEGA Holdings Co., Ltd. or its affiliates. SEGA is registered in the U.S. Patent and Trademark Office. Football Manager, the Football Manager logo, Eastside Hockey Manager, the Eastside Hockey Manager logo, Sports Interactive and the Sports Interactive logo are either registered trademarks or trademarks of Sports Interactive Limited. All rights reserved. All other company names, brand names and logos are property of their respective owners.</p>
+  </div>
+  
+</div>
+</div>
+
+</body>
+</html>
